@@ -51,7 +51,7 @@
       "tag": "CF-CTR",
       "server": "ctr.softx.us.kg",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -61,7 +61,7 @@
       "tag": "CF-V6",
       "server": "v6.fav.us.kg",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -71,7 +71,7 @@
       "tag": "CF-V4",
       "server": "v4.fav.us.kg",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -81,7 +81,7 @@
       "tag": "CF-MYSUCCESS",
       "server": "nisy.mysuccess.be",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -91,7 +91,7 @@
       "tag": "CF-VPSLOOK",
       "server": "www.vpslook.com",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -101,7 +101,7 @@
       "tag": "CF-REFAL",
       "server": "i0xcpwdz.refal.org",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -111,7 +111,7 @@
       "tag": "CF-ICOOKHK",
       "server": "icook.hk",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -121,7 +121,7 @@
       "tag": "CF-ZENPATH",
       "server": "eptlb.zenpath.ru",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -131,7 +131,7 @@
       "tag": "CF-365BEAUTY",
       "server": "lmglvsz.365beauty.fr",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -141,7 +141,7 @@
       "tag": "CF-DEBCOUSA",
       "server": "debcousa.com",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -151,7 +151,7 @@
       "tag": "CF-OKREAYEWEAR",
       "server": "sfujqx.okraeyewear.it",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -161,7 +161,7 @@
       "tag": "CF-SMJER6WAS3",
       "server": "plci2.smjer6was3.top",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -171,7 +171,7 @@
       "tag": "CF-CODEVECTOR",
       "server": "scux.codevector.online",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -181,7 +181,7 @@
       "tag": "CF-USCOMPANIES",
       "server": "butler-georgia.uscompanies.net",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
@@ -191,7 +191,7 @@
       "tag": "CF-ITALYDIRECTLY",
       "server": "lororosso.italydirectly.com",
       "server_port": 443,
-      "uuid": "8810e16b-b63b-4295-91bf-06d3d0f3048c",
+      "uuid": "c7d6545b-99cf-41d6-bed3-bab55b9cca00",
       "transport": { "path": "/?ed=2560", "type": "ws", "headers": { "Host": "ctr.softx.us.kg" } },
       "tls": { "enabled": true, "server_name": "ctr.softx.us.kg", "insecure": true },
       "tcp_fast_open": false
