@@ -10,7 +10,7 @@ proxies:
   - {name: CF-V4, server: v4.fav.us.kg, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
   - {name: CF-MYSUCCESS, server: nisy.mysuccess.be, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
   - {name: CF-VPSLOOK, server: www.vpslook.com, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-REFAL, server: i0xcpwdz.refal.org, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
+  - {name: CF-JOHAN, server: johan.direct, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
   - {name: CF-ICOOKHK, server: icook.hk, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
   - {name: CF-ZENPATH, server: eptlb.zenpath.ru, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
   - {name: CF-365BEAUTY, server: lmglvsz.365beauty.fr, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
@@ -33,7 +33,7 @@ proxy-groups:
       - CF-V4
       - CF-MYSUCCESS
       - CF-VPSLOOK
-      - CF-REFAL
+      - CF-JOHAN
       - CF-ICOOKHK
       - CF-ZENPATH
       - CF-365BEAUTY
@@ -54,7 +54,7 @@ proxy-groups:
       - CF-V4
       - CF-MYSUCCESS
       - CF-VPSLOOK
-      - CF-REFAL
+      - CF-JOHAN
       - CF-ICOOKHK
       - CF-ZENPATH
       - CF-365BEAUTY
@@ -74,7 +74,7 @@ proxy-groups:
       - CF-V4
       - CF-MYSUCCESS
       - CF-VPSLOOK
-      - CF-REFAL
+      - CF-JOHAN
       - CF-ICOOKHK
       - CF-ZENPATH
       - CF-365BEAUTY
@@ -95,7 +95,7 @@ proxy-groups:
       - CF-V4
       - CF-MYSUCCESS
       - CF-VPSLOOK
-      - CF-REFAL
+      - CF-JOHAN
       - CF-ICOOKHK
       - CF-ZENPATH
       - CF-365BEAUTY
@@ -129,7 +129,7 @@ proxy-groups:
       - CF-V4
       - CF-MYSUCCESS
       - CF-VPSLOOK
-      - CF-REFAL
+      - CF-JOHAN
       - CF-ICOOKHK
       - CF-ZENPATH
       - CF-365BEAUTY
