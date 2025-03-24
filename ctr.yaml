@@ -5,21 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CF-CTR, server: ctr.softx.us.kg, port: 8443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-V6, server: v6.fav.us.kg, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-V4, server: v4.fav.us.kg, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-MYSUCCESS, server: nisy.mysuccess.be, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-VPSLOOK, server: www.vpslook.com, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-JOHAN, server: johan.direct, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-ICOOKHK, server: icook.hk, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-ZENPATH, server: eptlb.zenpath.ru, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-365BEAUTY, server: lmglvsz.365beauty.fr, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-DEBCOUSA, server: debcousa.com, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-OKREAYEWEAR, server: sfujqx.okraeyewear.it, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-SMJER6WAS3, server: plci2.smjer6was3.top, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-CODEVECTOR, server: scux.codevector.online, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-USCOMPANIES, server: butler-georgia.uscompanies.net, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
-  - {name: CF-ITALYDIRECTLY, server: lororosso.italydirectly.com, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.softx.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.softx.us.kg}}}
+  - {name: CTR, server: ctr.williamcui.space, port: 8443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-V6, server: v6.williamcui.space, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-V4, server: v4.williamcui.space, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-MYSUCCESS, server: nisy.mysuccess.be, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-VPSLOOK, server: www.vpslook.com, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-JOHAN, server: johan.direct, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-ICOOKHK, server: icook.hk, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-ZENPATH, server: eptlb.zenpath.ru, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-365BEAUTY, server: lmglvsz.365beauty.fr, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-DEBCOUSA, server: debcousa.com, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-OKREAYEWEAR, server: sfujqx.okraeyewear.it, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-SMJER6WAS3, server: plci2.smjer6was3.top, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-CODEVECTOR, server: scux.codevector.online, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-USCOMPANIES, server: butler-georgia.uscompanies.net, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
+  - {name: CTR-ITALYDIRECTLY, server: lororosso.italydirectly.com, port: 443, type: vless, uuid: ace3f39c-ba9a-4d58-895d-99518a442952, tls: true, tfo: false, skip-cert-verify: true, servername: ctr.williamcui.space, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ctr.williamcui.space}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -28,83 +28,83 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - CF-CTR
-      - CF-V6
-      - CF-V4
-      - CF-MYSUCCESS
-      - CF-VPSLOOK
-      - CF-JOHAN
-      - CF-ICOOKHK
-      - CF-ZENPATH
-      - CF-365BEAUTY
-      - CF-DEBCOUSA
-      - CF-OKREAYEWEAR
-      - CF-SMJER6WAS3
-      - CF-CODEVECTOR
-      - CF-USCOMPANIES
-      - CF-ITALYDIRECTLY
+      - CTR
+      - CTR-V6
+      - CTR-V4
+      - CTR-MYSUCCESS
+      - CTR-VPSLOOK
+      - CTR-JOHAN
+      - CTR-ICOOKHK
+      - CTR-ZENPATH
+      - CTR-365BEAUTY
+      - CTR-DEBCOUSA
+      - CTR-OKREAYEWEAR
+      - CTR-SMJER6WAS3
+      - CTR-CODEVECTOR
+      - CTR-USCOMPANIES
+      - CTR-ITALYDIRECTLY
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CF-CTR
-      - CF-V6
-      - CF-V4
-      - CF-MYSUCCESS
-      - CF-VPSLOOK
-      - CF-JOHAN
-      - CF-ICOOKHK
-      - CF-ZENPATH
-      - CF-365BEAUTY
-      - CF-DEBCOUSA
-      - CF-OKREAYEWEAR
-      - CF-SMJER6WAS3
-      - CF-CODEVECTOR
-      - CF-USCOMPANIES
-      - CF-ITALYDIRECTLY
+      - CTR
+      - CTR-V6
+      - CTR-V4
+      - CTR-MYSUCCESS
+      - CTR-VPSLOOK
+      - CTR-JOHAN
+      - CTR-ICOOKHK
+      - CTR-ZENPATH
+      - CTR-365BEAUTY
+      - CTR-DEBCOUSA
+      - CTR-OKREAYEWEAR
+      - CTR-SMJER6WAS3
+      - CTR-CODEVECTOR
+      - CTR-USCOMPANIES
+      - CTR-ITALYDIRECTLY
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - CF-CTR
-      - CF-V6
-      - CF-V4
-      - CF-MYSUCCESS
-      - CF-VPSLOOK
-      - CF-JOHAN
-      - CF-ICOOKHK
-      - CF-ZENPATH
-      - CF-365BEAUTY
-      - CF-DEBCOUSA
-      - CF-OKREAYEWEAR
-      - CF-SMJER6WAS3
-      - CF-CODEVECTOR
-      - CF-USCOMPANIES
-      - CF-ITALYDIRECTLY
+      - CTR
+      - CTR-V6
+      - CTR-V4
+      - CTR-MYSUCCESS
+      - CTR-VPSLOOK
+      - CTR-JOHAN
+      - CTR-ICOOKHK
+      - CTR-ZENPATH
+      - CTR-365BEAUTY
+      - CTR-DEBCOUSA
+      - CTR-OKREAYEWEAR
+      - CTR-SMJER6WAS3
+      - CTR-CODEVECTOR
+      - CTR-USCOMPANIES
+      - CTR-ITALYDIRECTLY
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - CF-CTR
-      - CF-V6
-      - CF-V4
-      - CF-MYSUCCESS
-      - CF-VPSLOOK
-      - CF-JOHAN
-      - CF-ICOOKHK
-      - CF-ZENPATH
-      - CF-365BEAUTY
-      - CF-DEBCOUSA
-      - CF-OKREAYEWEAR
-      - CF-SMJER6WAS3
-      - CF-CODEVECTOR
-      - CF-USCOMPANIES
-      - CF-ITALYDIRECTLY
+      - CTR
+      - CTR-V6
+      - CTR-V4
+      - CTR-MYSUCCESS
+      - CTR-VPSLOOK
+      - CTR-JOHAN
+      - CTR-ICOOKHK
+      - CTR-ZENPATH
+      - CTR-365BEAUTY
+      - CTR-DEBCOUSA
+      - CTR-OKREAYEWEAR
+      - CTR-SMJER6WAS3
+      - CTR-CODEVECTOR
+      - CTR-USCOMPANIES
+      - CTR-ITALYDIRECTLY
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,21 +124,21 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - CF-CTR
-      - CF-V6
-      - CF-V4
-      - CF-MYSUCCESS
-      - CF-VPSLOOK
-      - CF-JOHAN
-      - CF-ICOOKHK
-      - CF-ZENPATH
-      - CF-365BEAUTY
-      - CF-DEBCOUSA
-      - CF-OKREAYEWEAR
-      - CF-SMJER6WAS3
-      - CF-CODEVECTOR
-      - CF-USCOMPANIES
-      - CF-ITALYDIRECTLY
+      - CTR
+      - CTR-V6
+      - CTR-V4
+      - CTR-MYSUCCESS
+      - CTR-VPSLOOK
+      - CTR-JOHAN
+      - CTR-ICOOKHK
+      - CTR-ZENPATH
+      - CTR-365BEAUTY
+      - CTR-DEBCOUSA
+      - CTR-OKREAYEWEAR
+      - CTR-SMJER6WAS3
+      - CTR-CODEVECTOR
+      - CTR-USCOMPANIES
+      - CTR-ITALYDIRECTLY
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1971,7 +1971,7 @@ rules:
   - DOMAIN-KEYWORD,hbogoasia,🚀 节点选择
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
   - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
+  - DOMAIN,CTR-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
   - DOMAIN,dai3fd1oh325y.cloudfront.net,🚀 节点选择
   - DOMAIN,hboasia1-i.akamaihd.net,🚀 节点选择
   - DOMAIN,hboasia2-i.akamaihd.net,🚀 节点选择
