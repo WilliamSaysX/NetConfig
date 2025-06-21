@@ -7,6 +7,9 @@ external-controller: :9090
 proxies:
   - {name: TR-PROXY, server: v4.williamcui.space, port: 2082, type: vless, uuid: f2852c13-7255-45a8-8f94-406387539b34, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tr.williamcui87.workers.dev}}}
   - {name: TZ-PROXY, server: v4.williamcui.space, port: 2052, type: vless, uuid: d8e57bc9-ba8a-4225-8c34-2fb58663d1d3, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tz.cuiweilin31.workers.dev}}, encryption: none}  
+  - {name: TZ-PROXY—DEBCOUSA, server: debcousa.com, port: 2082, type: vless, uuid: d8e57bc9-ba8a-4225-8c34-2fb58663d1d3, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tz.cuiweilin31.workers.dev}}, encryption: none}  
+  - {name: TZ-PROXY—VPSLOOK, server: vpslook.com, port: 2052, type: vless, uuid: d8e57bc9-ba8a-4225-8c34-2fb58663d1d3, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tz.cuiweilin31.workers.dev}}, encryption: none}  
+  - {name: TZ-PROXY—ICOOKHK, server: icook.hk, port: 2086, type: vless, uuid: d8e57bc9-ba8a-4225-8c34-2fb58663d1d3, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tz.cuiweilin31.workers.dev}}, encryption: none}  
   - {name: ZMT-PROXY, server: proxy.omfy.store, port: 2086, type: vless, uuid: 782149e9-0984-4a2e-937d-7999fcfbbd48, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: CTR.466151508.workers.dev}}, encryption: none}
   - {name: US-California, server: us185.kookeey.info, port: 26809, type: socks5, username: WilliamSaysX, password: WilliamSaysX, dialer-proxy: dialer}
 proxy-groups:
